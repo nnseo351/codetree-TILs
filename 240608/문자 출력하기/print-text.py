@@ -1,2 +1,2 @@
 for i in range(8):
-    print("G")
+    print("G",end="")
