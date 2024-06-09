@@ -6,7 +6,7 @@ if c=='A':
         print(i,end=" ")
         i+=1
 
-if c=='D':
+elif c=='D':
     for i in range(1,n+1):
         print(i,end=" ")
         i-=1
