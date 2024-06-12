@@ -1,4 +1,6 @@
 sum = 0
-for i in range(a, b):
+a, b = map(int, input().split())
+for i in range(a, b+1):
     sum += i
-    print(sum)
+    
+print(sum)
