@@ -1,12 +1,11 @@
-sum=0
-cnt=0
-n=0
-for i in range(n):
-    n=int(input())
-    sum += i
-    cnt += 1
-print(sum)
-average = sum / cnt if cnt > 0 else 0
+sum = 0
+cnt = 0
+n = int(input())
 
-# 합과 평균을 출력합니다. 평균은 소수점 첫째자리까지 출력합니다.
-print(sum, round(average, 1))
+for i in range(n):
+    z = int(input())
+    if 1 <= z <= 100:
+        sum += z  # 각 정수를 더합니다.
+        cnt += 1  # 입력된 정수의 개수를 증가시킵니다.
+
+print(sum, round(sum / cnt, 1))  # 합계와 평균을 출력합니다.
