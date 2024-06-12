@@ -3,4 +3,7 @@ n=int(input())
 for i in range(1, n):
     if n%i==0:
         sum += i
-print(i)
+if n==sum:
+    print("P")
+else:
+    print("N")
