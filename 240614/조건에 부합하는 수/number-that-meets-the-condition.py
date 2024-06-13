@@ -6,4 +6,4 @@ for i in range(1, a+1):
         continue
     if (i%7)<4:
         continue
-print(a)
+    print(i,end=" ")
